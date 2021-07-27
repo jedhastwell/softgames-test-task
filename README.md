@@ -1,3 +1,7 @@
+# SOFTGAMES Test Task
+
+A simple demo using PixiJS, Typescript, Webpack, and NPM.
+
 ## Setup
 
 ### Environment
