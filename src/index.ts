@@ -11,7 +11,9 @@ gsap.registerPlugin(PixiPlugin)
 PixiPlugin.registerPIXI(PIXI)
 
 const main = async () => {
-  const app = new PIXI.Application()
+  const app = new PIXI.Application({
+    backgroundColor: 0x647086,
+  })
 
   // Stop shared ticker.
   app.ticker.stop()
