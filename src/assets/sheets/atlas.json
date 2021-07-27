@@ -2,15 +2,23 @@
 
 "back-button":
 {
-	"frame": {"x":425,"y":357,"w":100,"h":100},
+	"frame": {"x":887,"y":2,"w":100,"h":100},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":100},
 	"sourceSize": {"w":100,"h":100}
 },
+"black":
+{
+	"frame": {"x":404,"y":81,"w":10,"h":10},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":10,"h":10},
+	"sourceSize": {"w":10,"h":10}
+},
 "button":
 {
-	"frame": {"x":2,"y":357,"w":420,"h":76},
+	"frame": {"x":2,"y":2,"w":420,"h":76},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":76},
@@ -18,39 +26,39 @@
 },
 "card-1":
 {
-	"frame": {"x":2,"y":2,"w":250,"h":352},
-	"rotated": false,
+	"frame": {"x":425,"y":2,"w":250,"h":352},
+	"rotated": true,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":250,"h":352},
 	"sourceSize": {"w":250,"h":352}
 },
 "card-2":
 {
-	"frame": {"x":255,"y":2,"w":250,"h":352},
-	"rotated": false,
+	"frame": {"x":2,"y":81,"w":250,"h":352},
+	"rotated": true,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":250,"h":352},
 	"sourceSize": {"w":250,"h":352}
 },
 "card-3":
 {
-	"frame": {"x":508,"y":2,"w":250,"h":352},
-	"rotated": false,
+	"frame": {"x":357,"y":255,"w":250,"h":352},
+	"rotated": true,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":250,"h":352},
 	"sourceSize": {"w":250,"h":352}
 },
 "card-4":
 {
-	"frame": {"x":761,"y":2,"w":250,"h":352},
-	"rotated": false,
+	"frame": {"x":2,"y":334,"w":250,"h":352},
+	"rotated": true,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":250,"h":352},
 	"sourceSize": {"w":250,"h":352}
 },
 "card-5":
 {
-	"frame": {"x":1014,"y":2,"w":250,"h":352},
+	"frame": {"x":712,"y":284,"w":250,"h":352},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":250,"h":352},
@@ -58,23 +66,23 @@
 },
 "card-6":
 {
-	"frame": {"x":1267,"y":2,"w":250,"h":352},
-	"rotated": false,
+	"frame": {"x":357,"y":508,"w":250,"h":352},
+	"rotated": true,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":250,"h":352},
 	"sourceSize": {"w":250,"h":352}
 },
 "card-7":
 {
-	"frame": {"x":1520,"y":2,"w":250,"h":352},
-	"rotated": false,
+	"frame": {"x":2,"y":587,"w":250,"h":352},
+	"rotated": true,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":250,"h":352},
 	"sourceSize": {"w":250,"h":352}
 },
 "coin":
 {
-	"frame": {"x":635,"y":357,"w":94,"h":94},
+	"frame": {"x":883,"y":105,"w":94,"h":94},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":94,"h":94},
@@ -82,15 +90,15 @@
 },
 "gem":
 {
-	"frame": {"x":829,"y":357,"w":100,"h":76},
-	"rotated": true,
+	"frame": {"x":780,"y":95,"w":100,"h":76},
+	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":76},
 	"sourceSize": {"w":100,"h":76}
 },
 "heart":
 {
-	"frame": {"x":528,"y":357,"w":104,"h":90},
+	"frame": {"x":780,"y":2,"w":104,"h":90},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":104,"h":90},
@@ -98,19 +106,27 @@
 },
 "key":
 {
-	"frame": {"x":908,"y":357,"w":88,"h":79},
-	"rotated": true,
+	"frame": {"x":877,"y":202,"w":88,"h":79},
+	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":88,"h":79},
 	"sourceSize": {"w":88,"h":79}
 },
 "lives":
 {
-	"frame": {"x":732,"y":357,"w":94,"h":94},
+	"frame": {"x":780,"y":174,"w":94,"h":94},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":94,"h":94},
 	"sourceSize": {"w":94,"h":94}
+},
+"particle":
+{
+	"frame": {"x":357,"y":81,"w":44,"h":44},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":44,"h":44},
+	"sourceSize": {"w":44,"h":44}
 }},
 "animations": {
 	"card": ["card-1","card-2","card-3","card-4","card-5","card-6","card-7"]
@@ -120,8 +136,8 @@
 	"version": "1.0",
 	"image": "atlas.png",
 	"format": "RGBA8888",
-	"size": {"w":1772,"h":459},
+	"size": {"w":989,"h":839},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:6f813311b99648bc0aa1f839a0bb69d8:a2587eec680edb06c08ad18f0accf06c:cbce6b53f0f49e0bf15173c25c41f876$"
+	"smartupdate": "$TexturePacker:SmartUpdate:d7fbad4ea887646d2df6b0c7863d03ea:1f2cdfd45b401dd26bb92fe934d05f43:cbce6b53f0f49e0bf15173c25c41f876$"
 }
 }
