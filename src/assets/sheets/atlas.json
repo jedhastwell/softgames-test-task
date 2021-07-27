@@ -2,7 +2,7 @@
 
 "back-button":
 {
-	"frame": {"x":508,"y":357,"w":100,"h":100},
+	"frame": {"x":425,"y":357,"w":100,"h":100},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":100},
@@ -10,8 +10,8 @@
 },
 "button":
 {
-	"frame": {"x":712,"y":357,"w":420,"h":76},
-	"rotated": true,
+	"frame": {"x":2,"y":357,"w":420,"h":76},
+	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":76},
 	"sourceSize": {"w":420,"h":76}
@@ -26,7 +26,7 @@
 },
 "card-2":
 {
-	"frame": {"x":2,"y":357,"w":250,"h":352},
+	"frame": {"x":255,"y":2,"w":250,"h":352},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":250,"h":352},
@@ -34,15 +34,15 @@
 },
 "card-3":
 {
-	"frame": {"x":2,"y":712,"w":250,"h":352},
-	"rotated": true,
+	"frame": {"x":508,"y":2,"w":250,"h":352},
+	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":250,"h":352},
 	"sourceSize": {"w":250,"h":352}
 },
 "card-4":
 {
-	"frame": {"x":255,"y":2,"w":250,"h":352},
+	"frame": {"x":761,"y":2,"w":250,"h":352},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":250,"h":352},
@@ -50,7 +50,7 @@
 },
 "card-5":
 {
-	"frame": {"x":255,"y":357,"w":250,"h":352},
+	"frame": {"x":1014,"y":2,"w":250,"h":352},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":250,"h":352},
@@ -58,19 +58,59 @@
 },
 "card-6":
 {
-	"frame": {"x":357,"y":712,"w":250,"h":352},
-	"rotated": true,
+	"frame": {"x":1267,"y":2,"w":250,"h":352},
+	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":250,"h":352},
 	"sourceSize": {"w":250,"h":352}
 },
 "card-7":
 {
-	"frame": {"x":508,"y":2,"w":250,"h":352},
+	"frame": {"x":1520,"y":2,"w":250,"h":352},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":250,"h":352},
 	"sourceSize": {"w":250,"h":352}
+},
+"coin":
+{
+	"frame": {"x":635,"y":357,"w":94,"h":94},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":94,"h":94},
+	"sourceSize": {"w":94,"h":94}
+},
+"gem":
+{
+	"frame": {"x":829,"y":357,"w":100,"h":76},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":76},
+	"sourceSize": {"w":100,"h":76}
+},
+"heart":
+{
+	"frame": {"x":528,"y":357,"w":104,"h":90},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":104,"h":90},
+	"sourceSize": {"w":104,"h":90}
+},
+"key":
+{
+	"frame": {"x":908,"y":357,"w":88,"h":79},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":88,"h":79},
+	"sourceSize": {"w":88,"h":79}
+},
+"lives":
+{
+	"frame": {"x":732,"y":357,"w":94,"h":94},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":94,"h":94},
+	"sourceSize": {"w":94,"h":94}
 }},
 "animations": {
 	"card": ["card-1","card-2","card-3","card-4","card-5","card-6","card-7"]
@@ -80,8 +120,8 @@
 	"version": "1.0",
 	"image": "atlas.png",
 	"format": "RGBA8888",
-	"size": {"w":790,"h":964},
+	"size": {"w":1772,"h":459},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:52ded6c01dd4084ef59eeaa86c08cdf0:f8058b0b02b003b426183fbb4d7f6bf6:cbce6b53f0f49e0bf15173c25c41f876$"
+	"smartupdate": "$TexturePacker:SmartUpdate:6f813311b99648bc0aa1f839a0bb69d8:a2587eec680edb06c08ad18f0accf06c:cbce6b53f0f49e0bf15173c25c41f876$"
 }
 }
