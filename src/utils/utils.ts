@@ -21,3 +21,8 @@ export const calculateViewSize = (targetSize: Size, viewportSize: Size): Size =>
     height: Math.ceil(viewportSize.height * scale),
   }
 }
+
+export const randomItem = <T>(array: Array<T>): T => {
+  const index = Math.floor(Math.random() * array.length)
+  return array[index]
+}

@@ -2,7 +2,7 @@
 
 "back-button":
 {
-	"frame": {"x":2,"y":2,"w":100,"h":100},
+	"frame": {"x":508,"y":357,"w":100,"h":100},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":100},
@@ -10,19 +10,78 @@
 },
 "button":
 {
-	"frame": {"x":105,"y":2,"w":420,"h":76},
-	"rotated": false,
+	"frame": {"x":712,"y":357,"w":420,"h":76},
+	"rotated": true,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":76},
 	"sourceSize": {"w":420,"h":76}
+},
+"card-1":
+{
+	"frame": {"x":2,"y":2,"w":250,"h":352},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":250,"h":352},
+	"sourceSize": {"w":250,"h":352}
+},
+"card-2":
+{
+	"frame": {"x":2,"y":357,"w":250,"h":352},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":250,"h":352},
+	"sourceSize": {"w":250,"h":352}
+},
+"card-3":
+{
+	"frame": {"x":2,"y":712,"w":250,"h":352},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":250,"h":352},
+	"sourceSize": {"w":250,"h":352}
+},
+"card-4":
+{
+	"frame": {"x":255,"y":2,"w":250,"h":352},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":250,"h":352},
+	"sourceSize": {"w":250,"h":352}
+},
+"card-5":
+{
+	"frame": {"x":255,"y":357,"w":250,"h":352},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":250,"h":352},
+	"sourceSize": {"w":250,"h":352}
+},
+"card-6":
+{
+	"frame": {"x":357,"y":712,"w":250,"h":352},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":250,"h":352},
+	"sourceSize": {"w":250,"h":352}
+},
+"card-7":
+{
+	"frame": {"x":508,"y":2,"w":250,"h":352},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":250,"h":352},
+	"sourceSize": {"w":250,"h":352}
 }},
+"animations": {
+	"card": ["card-1","card-2","card-3","card-4","card-5","card-6","card-7"]
+},
 "meta": {
 	"app": "https://www.codeandweb.com/texturepacker",
 	"version": "1.0",
 	"image": "atlas.png",
 	"format": "RGBA8888",
-	"size": {"w":527,"h":104},
+	"size": {"w":790,"h":964},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:92394dc9a102caef631b2a3b995f7d89:4731236ae99fec89c2c02aca689f82f0:cbce6b53f0f49e0bf15173c25c41f876$"
+	"smartupdate": "$TexturePacker:SmartUpdate:52ded6c01dd4084ef59eeaa86c08cdf0:f8058b0b02b003b426183fbb4d7f6bf6:cbce6b53f0f49e0bf15173c25c41f876$"
 }
 }
