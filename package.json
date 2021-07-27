@@ -13,6 +13,7 @@
   "author": "Jed Hastwell <jfhastwell@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "gsap": "^3.7.1",
     "pixi.js": "^6.0.4"
   },
   "devDependencies": {
