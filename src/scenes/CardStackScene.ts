@@ -1,4 +1,4 @@
-import { Container } from '@pixi/display'
+import { Container, IDestroyOptions } from '@pixi/display'
 import { Sprite } from '@pixi/sprite'
 import { Text, TextStyle } from '@pixi/text'
 import gsap from 'gsap/all'
@@ -98,9 +98,10 @@ export class CardStackScene extends DemoBaseScene {
     return { sprites, x, y }
   }
 
-  destroy(): void {
+  destroy(options?: boolean | IDestroyOptions): void {
     this.gameController.app.ticker.remove(this.update, this)
-    super.destroy()
+    gsap.globalTimeline.getChildren().forEach((tween) => tween.kill())
+    super.destroy(options)
   }
 
   onResize(width: number, height: number): void {

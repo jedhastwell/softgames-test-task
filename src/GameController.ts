@@ -12,7 +12,7 @@ export class GameController {
   setScene(scene: Scene): void {
     if (this.scene !== scene) {
       this.app.stage = scene
-      this.scene && this.scene.destroy()
+      this.scene && this.scene.destroy({ children: true })
       this.scene = scene
     }
   }
